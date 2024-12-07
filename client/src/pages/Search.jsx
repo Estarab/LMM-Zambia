@@ -123,7 +123,7 @@ export default function Search() {
               <option value='asc'>Oldest</option>
             </Select>
           </div>
-          <div className='flex items-center gap-2'>
+          {/* <div className='flex items-center gap-2'>
             <label className='font-semibold'>Category:</label>
             <Select
               onChange={handleChange}
@@ -135,7 +135,7 @@ export default function Search() {
               <option value='nextjs'>Next.js</option>
               <option value='javascript'>JavaScript</option>
             </Select>
-          </div>
+          </div> */}
           <Button type='submit' outline gradientDuoTone='purpleToPink'>
             Apply Filters
           </Button>
